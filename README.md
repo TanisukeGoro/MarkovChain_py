@@ -11,7 +11,9 @@ installer : Homebrew, pip
 
 #### 1.インストール・準備  
 githubのリポジトリからzipファイルでダウンロードして展開するか、任意のディレクトリで以下のコマンドを実行します。  
-git clone https://github.com/TanisukeGoro/MarkovChain_py.git  
+```
+$ git clone https://github.com/TanisukeGoro/MarkovChain_py.git  
+```
 取得したテキストの形態要素解析からのマルコフ連鎖を行っているので、形態要素解析用のライブラリをインストールする必要があります。  
 ```  
 $ brew install mecab
